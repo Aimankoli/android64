@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AndroidPhotos" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="android:statusBarColor">@color/primary_dark</item>
+        <item name="android:navigationBarColor">@color/primary_dark</item>
+    </style>
+    
+    <style name="CardStyle" parent="">
+        <item name="android:background">@drawable/card_background</item>
+        <item name="android:padding">12dp</item>
+    </style>
+    
+    <style name="TagChip.Person" parent="Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/tag_person</item>
+        <item name="android:textColor">@color/tag_text</item>
+    </style>
+    
+    <style name="TagChip.Location" parent="Widget.Material3.Chip.Assist">
+        <item name="chipBackgroundColor">@color/tag_location</item>
+        <item name="android:textColor">@color/tag_text</item>
+    </style>
+</resources>
