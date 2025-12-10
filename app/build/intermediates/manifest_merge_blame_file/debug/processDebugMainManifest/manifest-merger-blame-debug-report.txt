@@ -9,166 +9,166 @@
 9        android:targetSdkVersion="35" />
 10
 11    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-11-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:4:5-76
-11-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:4:22-73
+11-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:4:5-76
+11-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:4:22-73
 12    <uses-permission
-12-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:5:5-6:38
+12-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:5:5-6:38
 13        android:name="android.permission.READ_EXTERNAL_STORAGE"
-13-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:5:22-77
+13-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:5:22-77
 14        android:maxSdkVersion="32" />
-14-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:6:9-35
+14-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:6:9-35
 15
 16    <permission
-16-->[androidx.core:core:1.13.0] C:\Users\maima\.gradle\caches\8.9\transforms\f5b60dc17b9f5ee96b165157c1dc8f85\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+16-->[androidx.core:core:1.13.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/f5b60dc17b9f5ee96b165157c1dc8f85/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
 17        android:name="com.photos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-17-->[androidx.core:core:1.13.0] C:\Users\maima\.gradle\caches\8.9\transforms\f5b60dc17b9f5ee96b165157c1dc8f85\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+17-->[androidx.core:core:1.13.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/f5b60dc17b9f5ee96b165157c1dc8f85/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
 18        android:protectionLevel="signature" />
-18-->[androidx.core:core:1.13.0] C:\Users\maima\.gradle\caches\8.9\transforms\f5b60dc17b9f5ee96b165157c1dc8f85\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+18-->[androidx.core:core:1.13.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/f5b60dc17b9f5ee96b165157c1dc8f85/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
 19
 20    <uses-permission android:name="com.photos.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-20-->[androidx.core:core:1.13.0] C:\Users\maima\.gradle\caches\8.9\transforms\f5b60dc17b9f5ee96b165157c1dc8f85\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-20-->[androidx.core:core:1.13.0] C:\Users\maima\.gradle\caches\8.9\transforms\f5b60dc17b9f5ee96b165157c1dc8f85\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+20-->[androidx.core:core:1.13.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/f5b60dc17b9f5ee96b165157c1dc8f85/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/f5b60dc17b9f5ee96b165157c1dc8f85/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
 21
 22    <application
-22-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:8:5-50:19
+22-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:8:5-50:19
 23        android:allowBackup="true"
-23-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:9:9-35
+23-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:9:9-35
 24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-24-->[androidx.core:core:1.13.0] C:\Users\maima\.gradle\caches\8.9\transforms\f5b60dc17b9f5ee96b165157c1dc8f85\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+24-->[androidx.core:core:1.13.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/f5b60dc17b9f5ee96b165157c1dc8f85/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 25        android:debuggable="true"
 26        android:extractNativeLibs="false"
 27        android:icon="@mipmap/ic_launcher"
-27-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:10:9-43
+27-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:10:9-43
 28        android:label="@string/app_name"
-28-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:11:9-41
+28-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:11:9-41
 29        android:roundIcon="@mipmap/ic_launcher_round"
-29-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:12:9-54
+29-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:12:9-54
 30        android:supportsRtl="true"
-30-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:13:9-35
+30-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:13:9-35
 31        android:testOnly="true"
 32        android:theme="@style/Theme.AndroidPhotos" >
-32-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:14:9-51
+32-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:14:9-51
 33        <activity
-33-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:16:9-23:20
+33-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:16:9-23:20
 34            android:name="com.photos.activity.MainActivity"
-34-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:17:13-50
+34-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:17:13-50
 35            android:exported="true" >
-35-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:18:13-36
+35-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:18:13-36
 36            <intent-filter>
-36-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:19:13-22:29
+36-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:19:13-22:29
 37                <action android:name="android.intent.action.MAIN" />
-37-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:20:17-69
-37-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:20:25-66
+37-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:20:17-69
+37-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:20:25-66
 38
 39                <category android:name="android.intent.category.LAUNCHER" />
-39-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:21:17-77
-39-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:21:27-74
+39-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:21:17-77
+39-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:21:27-74
 40            </intent-filter>
 41        </activity>
 42        <activity
-42-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:25:9-28:67
+42-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:25:9-28:67
 43            android:name="com.photos.activity.AlbumActivity"
-43-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:26:13-51
+43-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:26:13-51
 44            android:exported="false"
-44-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:27:13-37
+44-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:27:13-37
 45            android:parentActivityName="com.photos.activity.MainActivity" />
-45-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:28:13-64
+45-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:28:13-64
 46        <activity
-46-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:30:9-33:68
+46-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:30:9-33:68
 47            android:name="com.photos.activity.PhotoDisplayActivity"
-47-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:31:13-58
+47-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:31:13-58
 48            android:exported="false"
-48-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:32:13-37
+48-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:32:13-37
 49            android:parentActivityName="com.photos.activity.AlbumActivity" />
-49-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:33:13-65
+49-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:33:13-65
 50        <activity
-50-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:35:9-38:67
+50-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:35:9-38:67
 51            android:name="com.photos.activity.SearchActivity"
-51-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:36:13-52
+51-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:36:13-52
 52            android:exported="false"
-52-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:37:13-37
+52-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:37:13-37
 53            android:parentActivityName="com.photos.activity.MainActivity" />
-53-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:38:13-64
+53-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:38:13-64
 54
 55        <provider
 56            android:name="androidx.core.content.FileProvider"
-56-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:41:13-62
+56-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:41:13-62
 57            android:authorities="com.photos.fileprovider"
-57-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:42:13-64
+57-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:42:13-64
 58            android:exported="false"
-58-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:43:13-37
+58-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:43:13-37
 59            android:grantUriPermissions="true" >
-59-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:44:13-47
+59-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:44:13-47
 60            <meta-data
-60-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:45:13-47:54
+60-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:45:13-47:54
 61                android:name="android.support.FILE_PROVIDER_PATHS"
-61-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:46:17-67
+61-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:46:17-67
 62                android:resource="@xml/file_paths" />
-62-->C:\Users\maima\cs213\android-photos\app\src\main\AndroidManifest.xml:47:17-51
+62-->/Users/prabhatshastri/Downloads/android64/app/src/main/AndroidManifest.xml:47:17-51
 63        </provider>
 64        <provider
-64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maima\.gradle\caches\8.9\transforms\fe0804887253e24248d739c6cdda06ea\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+64-->[androidx.emoji2:emoji2:1.3.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/fe0804887253e24248d739c6cdda06ea/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 65            android:name="androidx.startup.InitializationProvider"
-65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maima\.gradle\caches\8.9\transforms\fe0804887253e24248d739c6cdda06ea\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+65-->[androidx.emoji2:emoji2:1.3.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/fe0804887253e24248d739c6cdda06ea/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
 66            android:authorities="com.photos.androidx-startup"
-66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maima\.gradle\caches\8.9\transforms\fe0804887253e24248d739c6cdda06ea\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+66-->[androidx.emoji2:emoji2:1.3.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/fe0804887253e24248d739c6cdda06ea/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
 67            android:exported="false" >
-67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maima\.gradle\caches\8.9\transforms\fe0804887253e24248d739c6cdda06ea\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+67-->[androidx.emoji2:emoji2:1.3.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/fe0804887253e24248d739c6cdda06ea/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
 68            <meta-data
-68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maima\.gradle\caches\8.9\transforms\fe0804887253e24248d739c6cdda06ea\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+68-->[androidx.emoji2:emoji2:1.3.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/fe0804887253e24248d739c6cdda06ea/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maima\.gradle\caches\8.9\transforms\fe0804887253e24248d739c6cdda06ea\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+69-->[androidx.emoji2:emoji2:1.3.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/fe0804887253e24248d739c6cdda06ea/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
 70                android:value="androidx.startup" />
-70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\maima\.gradle\caches\8.9\transforms\fe0804887253e24248d739c6cdda06ea\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+70-->[androidx.emoji2:emoji2:1.3.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/fe0804887253e24248d739c6cdda06ea/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
 71            <meta-data
-71-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\maima\.gradle\caches\8.9\transforms\edc32ff63e820ffa7da2b074e085be7f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+71-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/prabhatshastri/.gradle/caches/8.9/transforms/edc32ff63e820ffa7da2b074e085be7f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-72-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\maima\.gradle\caches\8.9\transforms\edc32ff63e820ffa7da2b074e085be7f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+72-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/prabhatshastri/.gradle/caches/8.9/transforms/edc32ff63e820ffa7da2b074e085be7f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
 73                android:value="androidx.startup" />
-73-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\maima\.gradle\caches\8.9\transforms\edc32ff63e820ffa7da2b074e085be7f\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+73-->[androidx.lifecycle:lifecycle-process:2.6.2] /Users/prabhatshastri/.gradle/caches/8.9/transforms/edc32ff63e820ffa7da2b074e085be7f/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
 74            <meta-data
-74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
 75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
 76                android:value="androidx.startup" />
-76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
 77        </provider>
 78
 79        <receiver
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
 80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
 81            android:directBootAware="false"
-81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
 82            android:enabled="true"
-82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
 83            android:exported="true"
-83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
 84            android:permission="android.permission.DUMP" >
-84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
 85            <intent-filter>
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
 86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
 87            </intent-filter>
 88            <intent-filter>
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
 89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
 90            </intent-filter>
 91            <intent-filter>
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
 92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
 93            </intent-filter>
 94            <intent-filter>
-94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
 95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\maima\.gradle\caches\8.9\transforms\11c0f1fe95ad617401ec85a9905b723b\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/prabhatshastri/.gradle/caches/8.9/transforms/11c0f1fe95ad617401ec85a9905b723b/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
 96            </intent-filter>
 97        </receiver>
 98    </application>

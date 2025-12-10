@@ -69,7 +69,7 @@ public class SearchResultAdapter extends RecyclerView.Adapter<SearchResultAdapte
 
         void bind(PhotoResult result, int position) {
             // Show photo name with album info
-            String displayText = result.photo.getDisplayName() + " (" + result.album.getName() + ")";
+            String displayText = result.photo.getDisplayName(context) + " (" + result.album.getName() + ")";
             photoName.setText(displayText);
             loadThumbnail(photoThumbnail, result.photo.getUriString());
 

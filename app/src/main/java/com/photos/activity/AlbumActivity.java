@@ -139,7 +139,7 @@ public class AlbumActivity extends AppCompatActivity implements PhotoAdapter.Pho
         };
 
         new AlertDialog.Builder(this)
-                .setTitle(photo.getDisplayName())
+                .setTitle(photo.getDisplayName(this))
                 .setItems(options, (dialog, which) -> {
                     switch (which) {
                         case 0:

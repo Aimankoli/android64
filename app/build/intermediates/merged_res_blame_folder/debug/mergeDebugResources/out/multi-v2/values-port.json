@@ -4,7 +4,7 @@
             "outputFile": "com.photos.app-mergeDebugResources-29:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maima\\.gradle\\caches\\8.9\\transforms\\30bece207b204fae981eeb174530586d\\transformed\\appcompat-1.7.0\\res\\values-port\\values-port.xml",
+                    "source": "/Users/prabhatshastri/.gradle/caches/8.9/transforms/30bece207b204fae981eeb174530586d/transformed/appcompat-1.7.0/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

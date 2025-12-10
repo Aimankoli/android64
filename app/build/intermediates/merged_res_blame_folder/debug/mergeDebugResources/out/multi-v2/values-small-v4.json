@@ -4,7 +4,7 @@
             "outputFile": "com.photos.app-mergeDebugResources-29:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\maima\\.gradle\\caches\\8.9\\transforms\\4d72131c5de37f1ed1a6b9de8b888fd2\\transformed\\material-1.12.0\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "/Users/prabhatshastri/.gradle/caches/8.9/transforms/4d72131c5de37f1ed1a6b9de8b888fd2/transformed/material-1.12.0/res/values-small-v4/values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

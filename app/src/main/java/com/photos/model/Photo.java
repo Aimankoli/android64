@@ -1,6 +1,11 @@
 package com.photos.model;
 
+import android.content.ContentResolver;
+import android.content.Context;
+import android.database.Cursor;
 import android.net.Uri;
+import android.provider.MediaStore;
+import android.provider.OpenableColumns;
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -56,11 +61,63 @@ public class Photo implements Serializable {
 
     /**
      * Gets the display name (filename) of this photo.
+     * Uses ContentResolver for content URIs to get the actual display name.
      *
+     * @param context The context to use for ContentResolver (can be null)
      * @return The display name
      */
-    public String getDisplayName() {
+    public String getDisplayName(Context context) {
         Uri uri = Uri.parse(uriString);
+        
+        // Try to get display name from ContentResolver for content URIs
+        if (context != null && "content".equals(uri.getScheme())) {
+            try {
+                ContentResolver resolver = context.getContentResolver();
+                
+                // First try OpenableColumns.DISPLAY_NAME (works for most content URIs)
+                try (Cursor cursor = resolver.query(uri, null, null, null, null)) {
+                    if (cursor != null && cursor.moveToFirst()) {
+                        int nameIndex = cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME);
+                        if (nameIndex >= 0) {
+                            String displayName = cursor.getString(nameIndex);
+                            if (displayName != null && !displayName.isEmpty()) {
+                                // Remove extension if present
+                                int dotIndex = displayName.lastIndexOf('.');
+                                if (dotIndex > 0) {
+                                    return displayName.substring(0, dotIndex);
+                                }
+                                return displayName;
+                            }
+                        }
+                    }
+                }
+                
+                // If that didn't work, try MediaStore for media URIs
+                if (uri.toString().contains("media")) {
+                    String[] projection = {MediaStore.Images.Media.DISPLAY_NAME};
+                    try (Cursor cursor = resolver.query(uri, projection, null, null, null)) {
+                        if (cursor != null && cursor.moveToFirst()) {
+                            int nameIndex = cursor.getColumnIndex(MediaStore.Images.Media.DISPLAY_NAME);
+                            if (nameIndex >= 0) {
+                                String displayName = cursor.getString(nameIndex);
+                                if (displayName != null && !displayName.isEmpty()) {
+                                    // Remove extension if present
+                                    int dotIndex = displayName.lastIndexOf('.');
+                                    if (dotIndex > 0) {
+                                        return displayName.substring(0, dotIndex);
+                                    }
+                                    return displayName;
+                                }
+                            }
+                        }
+                    }
+                }
+            } catch (Exception e) {
+                // Fall through to path-based extraction
+            }
+        }
+        
+        // Fallback to path-based extraction
         String path = uri.getLastPathSegment();
         if (path != null) {
             // Try to get just the filename
@@ -76,6 +133,17 @@ public class Photo implements Serializable {
             return path;
         }
         return "Photo";
+    }
+
+    /**
+     * Gets the display name (filename) of this photo.
+     * This is a convenience method that doesn't require a context.
+     * For better results with content URIs, use getDisplayName(Context) instead.
+     *
+     * @return The display name
+     */
+    public String getDisplayName() {
+        return getDisplayName(null);
     }
 
     /**

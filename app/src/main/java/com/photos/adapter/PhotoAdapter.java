@@ -69,7 +69,7 @@ public class PhotoAdapter extends RecyclerView.Adapter<PhotoAdapter.PhotoViewHol
         }
 
         void bind(Photo photo, int position) {
-            photoName.setText(photo.getDisplayName());
+            photoName.setText(photo.getDisplayName(context));
             loadThumbnail(photoThumbnail, photo.getUriString());
 
             itemView.setOnClickListener(v -> {

@@ -122,7 +122,7 @@ public class PhotoDisplayActivity extends AppCompatActivity {
 
         // Update toolbar title
         MaterialToolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle(photo.getDisplayName());
+        toolbar.setTitle(photo.getDisplayName(this));
 
         // Update counter
         photoCounter.setText((currentIndex + 1) + " / " + photos.size());
